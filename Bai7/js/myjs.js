@@ -17,6 +17,7 @@ function handleSubmit() {
 				}
 			}
 		}
+		document.getElementById('error').style = 'display: none;';
 		document.getElementById('result').innerHTML = "Số lớn nhất: " + "<b>" + arr[2] + "</b>" + "<br>" + "Số nhỏ nhất: " + "<b>" + arr[0] + "</b>";
 	}
 	return false;
