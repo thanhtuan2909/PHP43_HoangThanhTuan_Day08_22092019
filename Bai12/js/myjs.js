@@ -17,10 +17,10 @@ function draw() {
 		for (var i = 1; i <= cols; i++){
 			for (var j = 1; j <= i; j++){
 				document.write(' * ');
-				//document.getElementById('error').innerHTML = ' * ';
+				//document.getElementById('result').innerHTML = ' * ';
 			}
 			document.write("<br>");
-			//document.getElementById('error').innerHTML = '<br>';
+			//document.getElementById('result').innerHTML = '<br>';
 		}
 	}
 	return false;
