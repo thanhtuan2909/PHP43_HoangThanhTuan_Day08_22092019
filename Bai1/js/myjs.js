@@ -78,7 +78,7 @@ function per(){
 
 function incs(){
 	var num1 = document.getElementById('num1').value;
-	if (checkInput(num1) == true) {
+	if (check2(num1) == true) {
 		var incs =  num1++;
 		document.getElementById('result').innerHTML = "a++ = " + incs;
 	}
@@ -87,7 +87,7 @@ function incs(){
 
 function inct(){
 	var num1 = document.getElementById('num1').value;
-	if (checkInput(num1) == true) {
+	if (check2(num1) == true) {
 		var inct =  ++num1;
 		document.getElementById('result').innerHTML = "a++ = " + inct;
 	}
@@ -96,7 +96,7 @@ function inct(){
 
 function decs(){
 	var num1 = document.getElementById('num1').value;
-	if (checkInput(num1) == true) {
+	if (check2(num1) == true) {
 		var decs =  num1--;
 		document.getElementById('result').innerHTML = "a++ = " + decs;
 	}
@@ -105,7 +105,7 @@ function decs(){
 
 function dect(){
 	var num1 = document.getElementById('num1').value;
-	if (checkInput(num1) == true) {
+	if (check2(num1) == true) {
 		var dect =  --num1;
 		document.getElementById('result').innerHTML = "a++ = " + dect;
 	}
