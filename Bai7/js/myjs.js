@@ -8,12 +8,13 @@ function handleSubmit() {
 		document.getElementById('error').innerHTML = 'Bạn phải nhập định dạng số';
 	} else {
 		var arr = [num1, num2, num3];
-		for (var i = 0; i < 3; i++) {
-			for (var j = i+1; j <= 3; j++) {
+		var tmp = arr[0];
+		for (var i = 0; i < arr.length-1; i++) {
+			for (var j = i+1; j < arr.length; j++) {
 				if (arr[i] > arr[j]) {
-					var tmp = arr[i];
-					arr[i]	= arr[j];
-					arr[j]	= tmp;
+					tmp = arr[j];
+					arr[j]	= arr[i];
+					arr[i]	= tmp;
 				}
 			}
 		}
