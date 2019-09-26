@@ -1,0 +1,42 @@
+.menu-ul, .menu-ul2 {
+	list-style: none;
+	margin: 0;
+}
+
+.menu-ul, .menu-li {
+	display: inline-block;
+}
+
+.menu-li {
+	padding: 30px 40px;
+	position: relative;
+}
+
+.bg {
+	background: green;
+}
+
+.menu-ul2 {
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	font-size: 16px;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+.menu-li2 {
+	padding-bottom: 10px;
+}
+
+.menu-child {
+	position: absolute;
+	background: green;
+	padding: 10px;
+	display: none;
+}
